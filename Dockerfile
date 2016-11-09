@@ -1,4 +1,4 @@
-FROM git://github.com/danyill/docker-ubuntu.git
+FROM https://github.com/danyill/docker-ubuntu.git
 MAINTAINER dan.mulholland@gmail.com
 
 ENV REDIS_USER=redis \
