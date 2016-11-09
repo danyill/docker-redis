@@ -1,5 +1,5 @@
-FROM sameersbn/ubuntu:14.04.20161014
-MAINTAINER sameer@damagehead.com
+FROM git://github.com/danyill/docker-ubuntu.git
+MAINTAINER dan.mulholland@gmail.com
 
 ENV REDIS_USER=redis \
     REDIS_DATA_DIR=/var/lib/redis \
